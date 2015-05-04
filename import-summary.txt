@@ -1,0 +1,137 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* ic_launcher-web.png
+* pom.xml
+* pom.xml~
+* proguard-project.txt
+* target/
+* target/CIDemo-1.0.ap_
+* target/CIDemo-1.0.apk
+* target/CIDemo-1.0.jar
+* target/R.txt
+* target/classes.dex
+* target/classes/
+* target/classes/META-INF/
+* target/classes/META-INF/MANIFEST.MF
+* target/classes/META-INF/maven/
+* target/classes/META-INF/maven/com.globallogic.cidemo/
+* target/classes/META-INF/maven/com.globallogic.cidemo/CIDemo/
+* target/classes/META-INF/maven/com.globallogic.cidemo/CIDemo/pom.properties
+* target/classes/META-INF/maven/com.globallogic.cidemo/CIDemo/pom.xml
+* target/classes/com/
+* target/classes/com/globallogic/
+* target/classes/com/globallogic/cidemo/
+* target/classes/com/globallogic/cidemo/BuildConfig.class
+* target/classes/com/globallogic/cidemo/CalcUtil.class
+* target/classes/com/globallogic/cidemo/R$attr.class
+* target/classes/com/globallogic/cidemo/R$drawable.class
+* target/classes/com/globallogic/cidemo/R$id.class
+* target/classes/com/globallogic/cidemo/R$layout.class
+* target/classes/com/globallogic/cidemo/R$string.class
+* target/classes/com/globallogic/cidemo/R$style.class
+* target/classes/com/globallogic/cidemo/R.class
+* target/classes/com/globallogic/cidemo/activities/
+* target/classes/com/globallogic/cidemo/activities/MainActivity$1.class
+* target/classes/com/globallogic/cidemo/activities/MainActivity$2.class
+* target/classes/com/globallogic/cidemo/activities/MainActivity.class
+* target/coverage-reports/
+* target/coverage-reports/jacoco-unit.exec
+* target/generated-sources/
+* target/generated-sources/r/
+* target/generated-sources/r/com/
+* target/generated-sources/r/com/globallogic/
+* target/generated-sources/r/com/globallogic/cidemo/
+* target/generated-sources/r/com/globallogic/cidemo/BuildConfig.java
+* target/generated-sources/r/com/globallogic/cidemo/R.java
+* target/maven-archiver/
+* target/maven-archiver/pom.properties
+* target/site/
+* target/site/jacoco/
+* target/site/jacoco/.resources/
+* target/site/jacoco/.resources/branchfc.gif
+* target/site/jacoco/.resources/branchnc.gif
+* target/site/jacoco/.resources/branchpc.gif
+* target/site/jacoco/.resources/bundle.gif
+* target/site/jacoco/.resources/class.gif
+* target/site/jacoco/.resources/down.gif
+* target/site/jacoco/.resources/greenbar.gif
+* target/site/jacoco/.resources/group.gif
+* target/site/jacoco/.resources/method.gif
+* target/site/jacoco/.resources/package.gif
+* target/site/jacoco/.resources/prettify.css
+* target/site/jacoco/.resources/prettify.js
+* target/site/jacoco/.resources/redbar.gif
+* target/site/jacoco/.resources/report.css
+* target/site/jacoco/.resources/report.gif
+* target/site/jacoco/.resources/session.gif
+* target/site/jacoco/.resources/sort.gif
+* target/site/jacoco/.resources/sort.js
+* target/site/jacoco/.resources/source.gif
+* target/site/jacoco/.resources/up.gif
+* target/site/jacoco/.sessions.html
+* target/site/jacoco/com.globallogic.cidemo/
+* target/site/jacoco/com.globallogic.cidemo/CalcUtil.html
+* target/site/jacoco/com.globallogic.cidemo/CalcUtil.java.html
+* target/site/jacoco/com.globallogic.cidemo/index.html
+* target/site/jacoco/com.globallogic.cidemo/index.source.html
+* target/site/jacoco/index.html
+* target/site/jacoco/jacoco.csv
+* target/site/jacoco/jacoco.xml
+* target/surefire-reports/
+* target/surefire-reports/TEST-com.globallogic.cidemo.CalcUtilTest.xml
+* target/surefire-reports/TEST-com.globallogic.cidemo.MainActivityTest.xml
+* target/surefire-reports/com.globallogic.cidemo.CalcUtilTest.txt
+* target/surefire-reports/com.globallogic.cidemo.MainActivityTest.txt
+* target/test-classes/
+* target/test-classes/com/
+* target/test-classes/com/globallogic/
+* target/test-classes/com/globallogic/cidemo/
+* target/test-classes/com/globallogic/cidemo/CalcUtilTest.class
+* target/test-classes/com/globallogic/cidemo/MainActivityTest.class
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets
+* res/ => app/src/main/res/
+* src/main/java/ => app/src/main/java/
+* src/test/java/ => app/src/main/java/
+* Test/res/ => app/src/androidTest/res/
+* Test/src/ => app/src/androidTest/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

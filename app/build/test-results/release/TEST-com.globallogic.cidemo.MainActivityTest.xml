@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.globallogic.cidemo.MainActivityTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2015-05-03T23:44:56" hostname="leanmazzu-laptop" time="12.268">
+  <properties/>
+  <testcase name="testAdd" classname="com.globallogic.cidemo.MainActivityTest" time="11.363"/>
+  <testcase name="testMult" classname="com.globallogic.cidemo.MainActivityTest" time="0.386"/>
+  <testcase name="testMultEmpty" classname="com.globallogic.cidemo.MainActivityTest" time="0.294"/>
+  <testcase name="testAddEmpty" classname="com.globallogic.cidemo.MainActivityTest" time="0.225"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
